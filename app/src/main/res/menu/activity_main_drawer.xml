@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="Menu">
+        <menu>
+            <item
+                android:id="@+id/nav_loans"
+                android:icon="@drawable/credit"
+                android:title="Kredyty" />
+            <item
+                android:id="@+id/nav_investments"
+                android:icon="@drawable/loan"
+                android:title="Lokaty" />
+            <item
+                android:id="@+id/nav_leasings"
+                android:icon="@drawable/car"
+                android:title="Leasingi" />
+            <item
+                android:id="@+id/nav_transfers"
+                android:icon="@drawable/trasnfer"
+                android:title="Kiedy dojdzie przelew" />
+            <item
+                android:id="@+id/nav_atms"
+                android:icon="@drawable/atm"
+                android:title="Bankomaty" />
+        </menu>
+    </item>
+
+    <item android:title="@string/other">
+        <menu>
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/about"
+                android:title="@string/about" />
+        </menu>
+    </item>
+
+</menu>
